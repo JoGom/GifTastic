@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+#gif-form input[type=text] {
+    padding: 6px;
+    border: solid 1px black;
+    margin-bottom: 30px;
+    font-size: 17px;
+  }
+  header{
+    background: rgb(83, 105, 74);
+    margin-bottom: 30px;
+    color: #e7e7e7;
+    border-bottom: 8px solid rgb(17, 29, 17);
+}
+.container{
+    max-width: 90%;
+    background: gray;
+}
