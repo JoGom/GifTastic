@@ -21,3 +21,7 @@ body{
     max-width: 90%;
     background: gray;
 }
+#buttons-container{
+    width: 100%;
+    border-bottom: 2px solid red;
+}
