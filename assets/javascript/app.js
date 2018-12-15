@@ -1,5 +1,5 @@
 
-var search = ["animals", "mood", "celebrity" ];
+var search = [];
 
 
 
@@ -28,6 +28,7 @@ $("#add-gif").on("click", function(event){
 function displayGif(){
 
     //grabs the name of the gif and stores it in a variable
+    $("#cover").hide();
     var gif = $(this).attr("data-name");
     var queryURL = "https://api.giphy.com/v1/gifs/search?q="+gif+"&api_key=kXT4Ft2jfr0GHTless9b5cYCQaAyGtqi&limit=10";
     console.log(queryURL);

@@ -4,11 +4,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+    background: url(../images/wood-table-background.jpg);
 }
 #gif-form input[type=text] {
     padding: 6px;
     border: solid 1px black;
-    margin-bottom: 30px;
+    margin: 30px 0;
     font-size: 17px;
   }
   header{
@@ -17,27 +18,72 @@ body{
     color: #e7e7e7;
     border-bottom: 8px solid rgb(17, 29, 17);
 }
+#cover{
+    background: url(../images/leather.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+#middle-box{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #e7e7e7;
+    border: 2px solid rgb(112, 112, 112);
+    width: 300px;
+    padding: 20px;
+}
+#buttons-container{
+    overflow: hidden;
+    background: inherit;
+  }
+#buttons-container button {
+    border: 1px solid black;
+    border-bottom: none;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
+    background-color: #e7e7e7;
+    /*float: left;*/
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+#buttons-container button:hover {
+    background-color: #ddd;
+}
 #main-content{
+    background: url("../images/paperr.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
     overflow: auto;
+    margin-bottom: 50px;
 }
 .container{
+    padding: 0;
     max-width: 90%;
-    background: gray;
 }
 #buttons-container{
     width: 100%;
-    border-bottom: 2px solid red;
 }
 #gif-view{
     text-align: center;
 }
 .gifContainer{
+    font-family: 'Reenie Beanie', cursive;
     display: inline-block;
-    font-size: 20px;
+    border: 1px solid black;
+    font-size: 30px;
     padding: 20px;
     background: #e7e7e7;
     width: fit-content;
     margin: 30px 20px;
+    box-shadow: 5px 10px 8px #494949;
     /*float: left;*/
 }
 .gifContainer p{
