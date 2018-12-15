@@ -17,6 +17,9 @@ body{
     color: #e7e7e7;
     border-bottom: 8px solid rgb(17, 29, 17);
 }
+#main-content{
+    overflow: auto;
+}
 .container{
     max-width: 90%;
     background: gray;
@@ -24,4 +27,22 @@ body{
 #buttons-container{
     width: 100%;
     border-bottom: 2px solid red;
+}
+#gif-view{
+    text-align: center;
+}
+.gifContainer{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    background: #e7e7e7;
+    width: fit-content;
+    margin: 30px 20px;
+    /*float: left;*/
+}
+.gifContainer p{
+    margin-top: 20px;
+}
+.clear{
+    clear: both;
 }
